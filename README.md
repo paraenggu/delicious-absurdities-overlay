@@ -1,2 +1,2 @@
 # delicious-absurdities-overlay
-Delicious and fragrant absurdities Gentoo portage overlay
+Gentoo portage overlay with delicious and fragrant absurdities
