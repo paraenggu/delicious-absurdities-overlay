@@ -9,7 +9,7 @@ sys-libs/libcap -python
 net-misc/ntp caps debug -ssl
 #media-tv/xbmc bluray css projectm rtmp samba udev vaapi goom webserver -external-libraries -rsxs
 media-tv/xbmc airplay bluray caps cec css projectm rtmp samba sftp udev udisks upnp upower vaapi goom webserver -rsxs -libav
-media-tv/kodi X fishbmc opengl projectm rsxs samba usb vdpau xrandr airplay bluetooth bluray caps cec css goom nfs profile rtmp sftp udisks upnp upower vaapi webserver -mysql -pvr
+media-tv/kodi avahi X fishbmc opengl projectm rsxs samba usb vdpau xrandr airplay bluetooth bluray caps cec css goom nfs profile rtmp sftp udisks upnp upower vaapi webserver -mysql -pvr
 dev-db/mysql -perl -ssl
 net-misc/dhcp minimal
 sys-block/parted device-mapper
