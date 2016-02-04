@@ -25,3 +25,5 @@ sys-kernel/gentoo-sources amd64
 ~dev-libs/libcec-3.0.1 amd64
 =dev-lang/python-2.7.10-r4 **
 ~dev-libs/libplatform-1.0.10 amd64
+<media-libs/libbluray-9999 amd64
+<media-libs/libbdplus-9999 amd64
