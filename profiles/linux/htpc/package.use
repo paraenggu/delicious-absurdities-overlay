@@ -1,0 +1,51 @@
+sys-devel/gettext -git
+sys-devel/gcc -fortran -openmp
+net-mail/mailbase -pam
+sys-fs/lvm2 -lvm1 -thin
+media-libs/libsdl audio opengl video X
+media-libs/sdl-image gif jpeg png
+dev-db/sqlite extensions
+sys-libs/libcap -python
+net-misc/ntp caps debug -ssl
+#media-tv/xbmc bluray css projectm rtmp samba udev vaapi goom webserver -external-libraries -rsxs
+media-tv/xbmc airplay bluray caps cec css projectm rtmp samba sftp udev udisks upnp upower vaapi goom webserver -rsxs -libav
+media-tv/kodi X fishbmc opengl projectm rsxs samba usb vdpau xrandr airplay bluetooth bluray caps cec css goom nfs profile rtmp sftp udisks upnp upower vaapi webserver -mysql -pvr
+dev-db/mysql -perl -ssl
+net-misc/dhcp minimal
+sys-block/parted device-mapper
+sys-auth/consolekit policykit
+sys-power/pm-utils ntp
+app-laptop/laptop-mode-tools
+media-libs/lcms static-libs
+media-libs/libpng static-libs
+media-libs/jpeg static-libs
+media-gfx/splashutils fbcondecor
+net-mail/mailbase -pam
+virtual/mysql minimal
+dev-db/mysql minimal
+net-libs/libmicrohttpd -ssl
+media-video/ffmpeg aac aacplus blueray faac network opus rtmp ssse3 threads vdpau
+virtual/jpeg static-libs
+dev-vcs/git -perl
+virtual/ffmpeg threads
+dev-lang/python sqlite
+net-p2p/transmission utp xfs
+media-libs/mesa gallium gbm -xvmc
+dev-libs/libxml2 python
+net-fs/samba caps quota syslog winbind
+media-libs/sdl-mixer mad
+sys-apps/iproute2 -iptables
+sys-kernel/linux-firmware savedconfig
+sys-fs/ntfs3g suid xattr
+x11-drivers/ati-drivers disable-watermark
+net-libs/libmicrohttpd messages
+media-plugins/xbmc-addon-pvrclients pvrclient_tvheadend
+media-tv/tvheadend ffmpeg inotify imagecache uriparser xmltv
+media-tv/xmltv ch
+x11-drivers/xf86-video-ati udev
+sys-libs/talloc python
+virtual/udev gudev hwdb keymap
+sys-fs/udev gudev keymap hwdb
+net-fs/cifs-utils ads
+net-libs/libmicrohttpd ssl
+sys-apps/util-linux caps udev
