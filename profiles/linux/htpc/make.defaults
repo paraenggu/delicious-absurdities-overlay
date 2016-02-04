@@ -1,4 +1,4 @@
-USE="acl acpi alsa bash-completion bzip2 consolekit dbus flac jpeg jpeg2k md5sum mmx mmxext mp3 mpeg nptl nptlonly ogg opengl sse sse2 theora tiff truetype userlocales unicode vdpau vim-syntax vorbis X x264 xattr xvid xvmc -3dnow -3dnowext -arts -cups -esd -gpm -gnome -gtk -gtk2 -ipv6 -kde -ldap -qt -tcpd"
+USE="acl acpi alsa bash-completion bluray bzip2 consolekit dbus flac jpeg jpeg2k md5sum mmx mmxext mp3 mpeg nptl nptlonly ogg opengl sse sse2 theora tiff truetype userlocales unicode vdpau vim-syntax vorbis X x264 xattr xvid xvmc -3dnow -3dnowext -arts -cups -esd -gpm -gnome -gtk -gtk2 -ipv6 -kde -ldap -qt -tcpd"
 #CFLAGS="-mtune=btver1 -O2 -pipe -fomit-frame-pointer"
 CFLAGS="-mtune=btver1 -O2"
 CPU_FLAGS_X86="mmx mmxext popcnt sse sse2 sse3 ssse3"
