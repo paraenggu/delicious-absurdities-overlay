@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>c.affolter@purplehaze.ch</email>
+		<name>Christian Affolter</name>
+	</maintainer>
+	<longdescription lang="en">
+		The OpenOB project is an audio over IP software package designed for broadcast engineers and system
+		integrators at broadcasters.
+	</longdescription>
+</pkgmetadata>
