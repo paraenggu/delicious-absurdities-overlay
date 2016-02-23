@@ -27,6 +27,7 @@ RDEPEND="=dev-python/gst-python-0.10*[${PYTHON_USEDEP}]
 	=media-libs/gst-plugins-bad-0.10*
 	=media-libs/gst-plugins-base-0.10*
 	=media-libs/gst-plugins-good-0.10*
+	=media-plugins/gst-plugins-opus-0.10*
 	=media-libs/gst-plugins-ugly-0.10*
 	=media-plugins/gst-plugins-ffmpeg-0.10*
 	virtual/ffmpeg[opus]"
