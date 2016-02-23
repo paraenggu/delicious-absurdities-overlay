@@ -23,7 +23,7 @@ IUSE="-minimal"
 RDEPEND="=dev-python/gst-python-0.10*[${PYTHON_USEDEP}]
 	dev-python/pygobject[${PYTHON_USEDEP}]
 	dev-python/redis-py[${PYTHON_USEDEP}]
-	!minimal? ( dev-ruby/redis )
+	!minimal? ( dev-db/redis )
 	=media-libs/gst-plugins-bad-0.10*
 	=media-libs/gst-plugins-base-0.10*
 	=media-libs/gst-plugins-good-0.10*
