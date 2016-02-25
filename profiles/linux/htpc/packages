@@ -39,3 +39,4 @@
 *sys-process/iotop
 *dev-util/strace
 *sys-kernel/linux-firmware
+*net-p2p/transmission
