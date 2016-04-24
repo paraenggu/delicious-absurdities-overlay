@@ -1,0 +1,2 @@
+# Stay on Samba 3.6 for now
+>=net-fs/samba-4
