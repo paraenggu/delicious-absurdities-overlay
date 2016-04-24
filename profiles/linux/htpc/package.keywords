@@ -20,10 +20,12 @@ net-p2p/transmission amd64
 ~x11-libs/libvdpau-0.5 amd64
 sys-kernel/gentoo-sources amd64
 ~media-video/libav-11.2 amd64
-=media-tv/kodi-15* amd64
+=media-tv/kodi-16* amd64
 ~media-video/ffmpeg-2.5.4 amd64
 ~dev-libs/libcec-3.0.1 amd64
 =dev-lang/python-2.7.10-r4 **
 ~dev-libs/libplatform-1.0.10 amd64
 <media-libs/libbluray-9999 amd64
 <media-libs/libbdplus-9999 amd64
+~dev-libs/crossguid-0_pre20150817 amd64
+~media-sound/dcadec-0.2.0 amd64
