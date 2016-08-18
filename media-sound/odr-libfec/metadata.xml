@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>c.affolter@purplehaze.ch</email>
+<name>Christian Affolter</name>
+</maintainer>
+<longdescription lang="en">
+This package provides a set of functions that implement several
+popular forward error correction (FEC) algorithms and several low-level routines
+useful in modems implemented with digital signal processing (DSP).
+</longdescription>
+</pkgmetadata>
