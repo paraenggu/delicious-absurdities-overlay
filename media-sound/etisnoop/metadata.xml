@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>c.affolter@purplehaze.ch</email>
+<name>Christian Affolter</name>
+</maintainer>
+<longdescription lang="en">
+The ETSnoop analyser decodes and prints out a RAW ETI file in a form that makes 
+analysis easier.
+It can show information about the signalling, details about the FIGs, and
+extract a DAB+ subchannel into a file.
+</longdescription>
+</pkgmetadata>
