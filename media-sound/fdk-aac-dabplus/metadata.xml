@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>c.affolter@purplehaze.ch</email>
+<name>Christian Affolter</name>
+</maintainer>
+<longdescription lang="en">
+This package contains a DAB and DAB+ encoder that integrates into the
+ODR-mmbTools.
+The DAB encoder is based on toolame. The DAB+ encoder uses a modified library
+of the Fraunhofer FDK AAC code from Android, patched for 960-transform to do
+DAB+ broadcast encoding.
+</longdescription>
+<use>
+<flag name='vlc'>
+Allows the encoder to use all inputs supported by VLC, and therefore also
+webstreams and other network sources.
+</flag>
+</use>
+</pkgmetadata>
