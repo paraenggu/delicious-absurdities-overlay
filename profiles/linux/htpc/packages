@@ -34,7 +34,6 @@
 *sys-apps/hdparm
 *media-tv/kodi
 *app-laptop/laptop-mode-tools
-*sys-fs/sshfs-fuse
 *sys-power/powertop
 *sys-process/iotop
 *dev-util/strace
