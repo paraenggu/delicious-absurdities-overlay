@@ -12,3 +12,4 @@ PORTAGE_ELOG_SYSTEM="echo syslog"
 PORTDIR_OVERLAY=/usr/local/portage
 #PKG_INSTALL_MASK="*.h *.hh *.c *.in *.cpp *.C *.la *.a"
 ACCEPT_LICENSE="*"
+LINGUAS="de en"
