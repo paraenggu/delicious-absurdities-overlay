@@ -18,7 +18,7 @@ IUSE="alsa imagemagick jack vlc"
 DEPEND="alsa? ( media-libs/alsa-lib )
 		imagemagick? ( media-gfx/imagemagick )
 		jack? ( media-sound/jack-audio-connection-kit )
-		media-sound/odr-libfec
+		media-sound/libfec-odr
 		>=net-libs/zeromq-4.0.4
 		vlc? ( media-video/vlc )"
 
