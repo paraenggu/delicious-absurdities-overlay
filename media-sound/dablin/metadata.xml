@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>c.affolter@purplehaze.ch</email>
+		<name>Christian Affolter</name>
+	</maintainer>
+	<longdescription lang="en">
+		DABlin plays a DAB/DAB+ audio service – either from a received live
+		transmission or from a stored ensemble recording (frame-aligned
+		ETI-NI).  Both DAB (MP2) and DAB+ (AAC-LC, HE-AAC, HE-AAC v2) services
+		are supported.
+
+		The GTK GUI version in addition supports the data applications Dynamic
+		Label and MOT Slideshow (if used by the selected service).
+	</longdescription>
+	<use>
+        <flag name="fdk">Enables the Fraunhofer AAC codec library.</flag>
+	</use>
+</pkgmetadata>
