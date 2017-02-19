@@ -3,7 +3,6 @@
 ~x11-libs/xvba-video-0.8.0 amd64
 ~x11-libs/xvba-sdk-0.74_p404001 amd64
 ~sys-apps/hwinfo-18.5 amd64
-net-p2p/transmission amd64
 ~net-libs/miniupnpc-1.6 amd64
 ~net-libs/libnatpmp-20110808 amd64
 ~app-admin/eselect-opencl-1.1.0 amd64
