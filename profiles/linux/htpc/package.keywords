@@ -1,5 +1,4 @@
 ~sys-devel/gcc-4.6.4 amd64
-sys-kernel/linux-headers amd64
 ~media-video/hwdecode-demos-0.9.5 amd64
 ~x11-libs/xvba-video-0.8.0 amd64
 ~x11-libs/xvba-sdk-0.74_p404001 amd64
