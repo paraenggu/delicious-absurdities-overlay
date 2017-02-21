@@ -16,16 +16,13 @@ sys-block/parted device-mapper
 sys-auth/consolekit policykit
 sys-power/pm-utils ntp
 app-laptop/laptop-mode-tools
-media-libs/lcms static-libs
 media-libs/libpng static-libs
-media-libs/jpeg static-libs
 media-gfx/splashutils fbcondecor
 net-mail/mailbase -pam
 virtual/mysql minimal
 dev-db/mysql minimal
 net-libs/libmicrohttpd -ssl
 media-video/ffmpeg aac aacplus blueray faac network opus rtmp ssse3 threads vdpau
-virtual/jpeg static-libs
 dev-vcs/git -perl
 virtual/ffmpeg threads
 dev-lang/python sqlite
