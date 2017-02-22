@@ -15,7 +15,8 @@ SLOT=0
 KEYWORDS="amd64"
 IUSE="fdk gtk +sdl"
 
-DEPEND="|| ( fdk? ( media-libs/fdk-aac ) media-libs/faad2 )
+DEPEND="fdk? ( || ( media-libs/fdk-aac media-sound/fdk-aac-dabplus ) )
+        !fdk? ( media-libs/faad2 )
 		gtk? ( dev-cpp/gtkmm:3.0 )
 		sdl? ( media-libs/libsdl2 )
 		>=media-sound/mpg123-1.14.0"
