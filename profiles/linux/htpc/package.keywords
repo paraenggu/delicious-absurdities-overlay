@@ -16,7 +16,8 @@
 ~x11-libs/libdrm-2.4.46 amd64
 =media-libs/mesa-9.2* amd64
 ~x11-libs/libvdpau-0.5 amd64
-sys-kernel/gentoo-sources amd64
+=sys-kernel/gentoo-sources-4.9* amd64
+=sys-kernel/ddbridge-sources-4.9* amd64
 ~media-video/libav-11.2 amd64
 =media-tv/kodi-17* amd64
 ~media-video/ffmpeg-2.5.4 amd64
