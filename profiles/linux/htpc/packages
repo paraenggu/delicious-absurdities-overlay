@@ -39,3 +39,4 @@
 *dev-util/strace
 *sys-kernel/linux-firmware
 *net-p2p/transmission
+*app-arch/lz4
