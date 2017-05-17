@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>c.affolter@purplehaze.ch</email>
+		<name>Christian Affolter</name>
+	</maintainer>
+	<longdescription lang="en">
+		welle.io is an open source DAB and DAB+ software defined radio (SDR)
+		with support for airspy and rtlsdr.
+	</longdescription>
+</pkgmetadata>
