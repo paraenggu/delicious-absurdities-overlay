@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>c.affolter@purplehaze.ch</email>
+		<name>Christian Affolter</name>
+	</maintainer>
+	<longdescription lang="en">
+		NetworkManager-strongswan is a plugin for NetworkManager to configure
+		VPN road warrior clients for the most common setups. The plugin
+		currently supports connections using the IKEv2 protocol only.
+	</longdescription>
+</pkgmetadata>
