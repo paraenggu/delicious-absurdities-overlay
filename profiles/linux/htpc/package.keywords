@@ -7,12 +7,11 @@
 ~net-libs/libnatpmp-20110808 amd64
 ~app-admin/eselect-opencl-1.1.0 amd64
 ~sys-libs/talloc-2.0.7 amd64
-~media-tv/tvheadend-3.2.18 amd64
+=media-tv/tvheadend-4* amd64
 ~sys-kernel/linux-firmware-20130728 amd64
 ~media-tv/linuxtv-dvb-apps-1.1.1.20100223 amd64
 <media-tv/xbmc-9999 amd64
 =media-plugins/xbmc-addon-pvrclients-9999 **
-~media-tv/tvheadend-9999 amd64
 ~x11-libs/libdrm-2.4.46 amd64
 =media-libs/mesa-9.2* amd64
 ~x11-libs/libvdpau-0.5 amd64
