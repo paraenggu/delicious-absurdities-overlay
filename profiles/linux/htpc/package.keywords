@@ -19,7 +19,6 @@
 =sys-kernel/gentoo-sources-4.9* amd64
 =sys-kernel/ddbridge-sources-4.9* amd64
 ~media-video/libav-11.2 amd64
-=media-tv/kodi-17* amd64
 ~media-video/ffmpeg-2.5.4 amd64
 ~dev-libs/libcec-4.0.1 amd64
 =dev-lang/python-2.7.10-r4 **
