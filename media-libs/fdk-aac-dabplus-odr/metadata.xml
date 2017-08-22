@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>c.affolter@purplehaze.ch</email>
+        <name>Christian Affolter</name>
+    </maintainer>
+    <longdescription lang="en">
+		The Fraunhofer FDK AAC Codec Library for Android ("FDK AAC Codec") is
+		software that implements the MPEG Advanced Audio Coding ("AAC") encoding
+		an decoding scheme for digital audio.
+		This is a modified version of fdk-aac that supports the AOTs required
+		for DAB+ encoding.
+    </longdescription>
+</pkgmetadata>
