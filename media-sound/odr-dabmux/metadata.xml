@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>c.affolter@purplehaze.ch</email>
+        <name>Christian Affolter</name>
+    </maintainer>
+    <longdescription lang="en">
+		ODR-DabMux is a DAB (Digital Audio Broadcasting) multiplexer compliant
+		to ETSI EN 300 401. It is the continuation of the work started by the 
+		Communications Research Center Canada on CRC-DabMux, and is now pursued 
+		in the Opendigitalradio project.
+    </longdescription>
+	<use>
+		<flag name="curl">
+			Uses cURL to download the TAI-UTC bulletin, needed for the EDI
+			output.
+		</flag>
+	</use>
+</pkgmetadata>
