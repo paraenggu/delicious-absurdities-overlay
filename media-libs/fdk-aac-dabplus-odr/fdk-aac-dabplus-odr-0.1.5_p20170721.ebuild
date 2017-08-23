@@ -15,7 +15,7 @@ SRC_URI=""
 LICENSE="FraunhoferFDK"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="static-libs"
 
 DEPEND=""
 RDEPEND="!media-libs/fdk-aac"
@@ -25,4 +25,14 @@ DOCS="ChangeLog README.md documentation/*.pdf"
 src_prepare() {
 	default
 	eautoreconf
+}
+
+src_configure() {
+	econf $(use_enable static-libs static)
+}
+
+src_install() {
+	default
+	# Uses pkg-config .pc file
+	find "${D}" -name '*.la' -delete || die
 }
