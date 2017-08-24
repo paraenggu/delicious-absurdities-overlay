@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>c.affolter@purplehaze.ch</email>
+        <name>Christian Affolter</name>
+    </maintainer>
+    <longdescription lang="en">
+		A DAB and DAB+ encoder that integrates into the ODR-mmbTools.
+		The DAB encoder is based on toolame. The DAB+ encoder uses a modified
+		library of the Fraunhofer FDK AAC code from Android, patched for
+		960-transform to do DAB+ broadcast encoding.
+		The main tool is the odr-audioenc encoder, which can read audio from a
+		file (raw or wav), from an ALSA source, from JACK or using libVLC, and
+		encode to a file, a pipe, or to a ZeroMQ output compatible with
+		ODR-DabMux.
+    </longdescription>
+	<use>
+		<flag name="alsa">Enables ALSA input</flag>
+		<flag name="jack">Enables JACK input</flag>
+		<flag name="static-libs">Build a static libtoolame-dab library</flag>
+		<flag name="vlc">Enables VLC input</flag>
+	</use>
+</pkgmetadata>
