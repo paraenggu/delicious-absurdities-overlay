@@ -40,7 +40,7 @@ ExecStart=/usr/bin/odr-audioenc \
               --rate=${AUDIOENC_ENCODER_SAMPLERATE} \
               ${AUDIOENC_OUTPUT_OPTS} \
               ${AUDIOENC_MISC_OPTS}
-User=odr
+User=odr-audioenc
 Group=odr
 
 [Install]
