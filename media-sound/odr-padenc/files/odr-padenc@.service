@@ -28,7 +28,7 @@ ExecStart=/usr/bin/odr-padenc \
               --pad=${PADENC_PAD_LENGTH} \
               --charset=${PADENC_CHARSET} \
               --remove-dls \
-              ${PADENC_MISC_OPTS}
+              $PADENC_MISC_OPTS
 
 User=odr-padenc
 Group=odr
