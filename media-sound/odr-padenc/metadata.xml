@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>c.affolter@purplehaze.ch</email>
+        <name>Christian Affolter</name>
+    </maintainer>
+    <longdescription lang="en">
+		ODR-PadEnc is an encoder for Programme Associated Data (PAD) and
+		includes support for MOT Slideshow (including catSLS) and DLS
+		(including DL Plus).
+		To encode DLS and Slideshow data, the odr-padenc tool reads images from 
+		a folder and DLS text from a file, and generates the PAD data for the
+		encoder.
+    </longdescription>
+	<use>
+		<flag name="imagemagick">
+			Using ImageMagick to resize MOT Slideshow images
+		</flag>
+	</use>
+</pkgmetadata>

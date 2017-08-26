@@ -56,7 +56,7 @@ src_install() {
 
 pkg_postinst() {
 	enewgroup odr
-	enewuser odr -1 -1 -1 "odr,audio"
+	enewuser odr-audioenc -1 -1 -1 "odr,audio"
 
 	elog "There is a systemd service template unit provided for systemd users"
 	elog "It uses an ALSA input and outputs ZMQ to localhost by default."
