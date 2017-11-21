@@ -48,3 +48,6 @@ net-libs/libmicrohttpd ssl
 sys-apps/util-linux caps udev
 media-libs/libbluray aacs bdplus udf utils
 media-libs/libbdplus aacs
+sys-libs/tdb python
+sys-libs/tevent python
+
