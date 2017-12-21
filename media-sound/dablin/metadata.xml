@@ -15,6 +15,6 @@
 		Label and MOT Slideshow (if used by the selected service).
 	</longdescription>
 	<use>
-        <flag name="fdk">Enables the Fraunhofer AAC codec library.</flag>
+		<flag name="fdk">Enables the Fraunhofer AAC codec library.</flag>
 	</use>
 </pkgmetadata>
