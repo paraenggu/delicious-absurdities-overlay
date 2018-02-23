@@ -1,7 +1,7 @@
 # Copyright 2017-2018 Christian Affolter <c.affolter@purplehaze.ch>
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=6
 
 inherit cmake-utils
 
@@ -24,8 +24,8 @@ RDEPEND="${DEPEND}"
 
 src_configure() {
 	local mycmakeargs=(
-		$(cmake-utils_use_use fdk FDK-AAC)
-		$(cmake-utils_use_disable sdl SDL)
+		-DUSE_FDK-AAC="$(usex fdk)"
+		-DUSE_SDL="$(usex sdl)"
 	)
 
 	cmake-utils_src_configure
