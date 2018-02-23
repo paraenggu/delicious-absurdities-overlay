@@ -1,4 +1,4 @@
-# Copyright 2017 Christian Affolter <c.affolter@purplehaze.ch>
+# Copyright 2017-2018 Christian Affolter <c.affolter@purplehaze.ch>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
