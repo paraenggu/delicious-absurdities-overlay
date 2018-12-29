@@ -22,7 +22,7 @@ net-mail/mailbase -pam
 virtual/mysql minimal
 dev-db/mysql minimal
 net-libs/libmicrohttpd -ssl
-media-video/ffmpeg aac aacplus blueray faac network openssl opus rtmp ssse3 threads vdpau
+media-video/ffmpeg aac aacplus blueray faac network openssl opus rtmp ssse3 threads vaapi vdpau
 dev-vcs/git -perl
 virtual/ffmpeg threads
 dev-lang/python sqlite
