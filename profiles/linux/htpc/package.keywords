@@ -34,3 +34,4 @@
 ~media-video/ffmpeg-3.2.4 amd64
 ~media-fonts/noto-20160531 amd64
 <media-tv/kodi-9999 amd64
+~media-video/ffmpeg-4.1 amd64
