@@ -1,11 +1,11 @@
-# Copyright 2017-2018 Christian Affolter <c.affolter@purplehaze.ch>
+# Copyright 2017-2019 Christian Affolter <c.affolter@purplehaze.ch>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
 inherit cmake-utils
 
-DESCRIPTION="DAB/DAB+ receiver for Linux (including ETI-NI playback)"
+DESCRIPTION="DAB/DAB+ receiver for Linux (including ETI-NI and EDI AF playback)"
 HOMEPAGE="https://github.com/Opendigitalradio/dablin"
 SRC_URI="https://github.com/Opendigitalradio/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
