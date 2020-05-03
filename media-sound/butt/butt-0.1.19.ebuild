@@ -1,11 +1,11 @@
-# Copyright 1999-2017 Christian Affolter <c.affolter@purplehaze.ch>
+# Copyright 1999-2020 Christian Affolter <c.affolter@purplehaze.ch>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit eutils flag-o-matic
+inherit eutils flag-o-matic xdg-utils
 
 DESCRIPTION="butt is an easy to use, multi OS streaming tool"
-HOMEPAGE="http://danielnoethen.de/"
+HOMEPAGE="http://danielnoethen.de/butt/"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
@@ -25,13 +25,10 @@ DEPEND="aac? ( media-libs/fdk-aac )
 RDEPEND="${DEPEND}"
 
 src_prepare() {
-	# GCC patch from https://sourceforge.net/p/butt/bugs/16/#c4df
-	epatch "${FILESDIR}/${PN}-gcc5.patch"
-
 	# Fix invalid Desktop Menu category
 	# https://specifications.freedesktop.org/menu-spec/latest/apa.html
 	sed -i -e 's|\(Categories\)=Sound|\1=AudioVideo;Audio|' \
-		icons/butt.desktop || die 'sed failed'
+		usr/share/applications/${PN}.desktop || die 'sed failed'
 
 	default
 }
@@ -42,7 +39,7 @@ src_configure() {
 }
 
 src_install() {
-	domenu "icons/${PN}.desktop"
+	domenu "usr/share/applications/${PN}.desktop"
 
 	for size in 16 22 24 32 48 64 96 128 256 512; do
 		newicon -s ${size} "icons/icon_${size}x${size}.png" "${PN}.png"
@@ -51,4 +48,12 @@ src_install() {
 	newicon -s scalable "icons/icon_scalable.svg" "${PN}.svg"
 
 	default
+}
+
+pkg_postinst() {
+	xdg_icon_cache_update
+}
+
+pkg_postrm() {
+	xdg_icon_cache_update
 }
